@@ -1,0 +1,24 @@
+--- Makefile~	2004-01-19 23:40:27.000000000 +0100
++++ Makefile	2004-01-19 23:46:54.000000000 +0100
+@@ -16,17 +16,17 @@
+ 	esac
+ 
+ linux:
+-	gcc -DLINUX -Wall -o trfs trfs.c
++	$(CC) $(CFLAGS) -DLINUX -Wall -o trfs trfs.c
+ 
+ freebsd:
+-	gcc -DFREEBSD -Wall -o trfs trfs.c
++	$(CC) -DFREEBSD -Wall -o trfs trfs.c
+ 
+ trfs:
+ 	make all
+ 
+ install: trfs
+-	install -o root -g wheel -m 755 trfs $(DESTDIR)$(prefix)/bin
+-	install -o root -g wheel -m 755 trf  $(DESTDIR)$(prefix)/bin
++	install -o root -g root trfs $(DESTDIR)$(prefix)/bin
++	install -o root -g root trf  $(DESTDIR)$(prefix)/bin
+ 
+ clean:
+ 	rm trfs || true
