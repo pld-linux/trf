@@ -1,5 +1,5 @@
 Summary:	Trf is a tarifficator for dial-up connections
-Summary(pl):	Trf jest taryfikatorem dla po³aczeñ dial-up
+Summary(pl):	Trf jest taryfikatorem dla po³±czeñ dial-up
 Name:		trf
 Version:	0.4
 Release:	0.1
@@ -18,7 +18,7 @@ with most popular Polish ISP - TP S.A.. It supports lump sum (pol -
 ryczalt).
 
 %description -l pl
-Trf jest taryfikatorem dla po³aczeñ dial-up. Jest zaprojektowany do
+Trf jest taryfikatorem dla po³±czeñ dial-up. Jest zaprojektowany do
 pracy z najpopularniejszym polskim IPS - TP S.A.. Wspiera Rycza³ty
 Internetowe TP S.A..
 
