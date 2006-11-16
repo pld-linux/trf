@@ -34,8 +34,10 @@ Internetowe TP S.A..
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
-install trfs $RPM_BUILD_ROOT%{_bindir}/
 
+%{__make} install \
+	prefix=/usr \
+	DESTDIR=$RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
