@@ -17,8 +17,8 @@
  install: trfs
 -	install -o root -g wheel -m 755 trfs $(DESTDIR)$(prefix)/bin
 -	install -o root -g wheel -m 755 trf  $(DESTDIR)$(prefix)/bin
-+	install -o root -g root trfs $(DESTDIR)$(prefix)/bin
-+	install -o root -g root trf  $(DESTDIR)$(prefix)/bin
++	install trfs $(DESTDIR)$(prefix)/bin
++	install trf  $(DESTDIR)$(prefix)/bin
  
  clean:
  	rm trfs || true
