@@ -1,5 +1,5 @@
 Summary:	Trf is a tarifficator for dial-up connections
-Summary(pl.UTF-8):   Trf jest taryfikatorem dla połączeń dial-up
+Summary(pl.UTF-8):	Trf jest taryfikatorem dla połączeń dial-up
 Name:		trf
 Version:	0.4
 Release:	0.1
